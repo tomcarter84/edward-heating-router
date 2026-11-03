@@ -1,0 +1,23 @@
+{
+  "title": "Edward Heating Router",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Edward Heating Router",
+        "description": "Choose the Tado zone and its heat-request sources. The separate temperature sensor must report Celsius. Other requests use the existing conversation.openai_conversation agent. This does not change any pipeline or device.",
+        "data": {
+          "climate_entity": "Tado climate entity",
+          "power_entity": "Tado heat request (percent)",
+          "demand_entity": "Tado heating demand (on/off)",
+          "temperature_entity": "Separate hallway temperature (Celsius)"
+        }
+      }
+    },
+    "error": {
+      "invalid_entity": "Select an existing entity of the required type."
+    },
+    "abort": {
+      "already_configured": "Edward Heating Router is already configured."
+    }
+  }
+}

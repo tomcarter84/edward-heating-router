@@ -1,0 +1,17 @@
+{
+  "domain": "edward_heating_router",
+  "name": "Edward Heating Router",
+  "version": "0.1.1",
+  "config_flow": true,
+  "dependencies": [
+    "conversation"
+  ],
+  "documentation": "https://github.com/tomcarter84/edward-heating-router",
+  "codeowners": [
+    "@tomcarter84"
+  ],
+  "iot_class": "local_push",
+  "integration_type": "service",
+  "requirements": [],
+  "issue_tracker": "https://github.com/tomcarter84/edward-heating-router/issues"
+}
